@@ -4,11 +4,11 @@ using namespace std;
 //CHECKING IS THE CHANCES FOR WINNING THE FIRST PERSON PLAYING NIMGAME
 
 void nimGame(int n){
-    if(n%5==0){
+    if(n%4==0){
         cout<<"The first person will lose the game.";
     }
     else{
-        cout<<"congrats to the first person";
+        cout<<"congrats to player 1";
         cout<<"The first person will win the game.";
     }
 }
