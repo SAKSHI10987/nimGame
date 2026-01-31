@@ -8,7 +8,7 @@ void nimGame(int n){
         cout<<"The first person will lose the game.";
     }
     else{
-        cout<<"congrats to player 1";
+        cout<<"congrats to person 1 (sad for person 2)";
         cout<<"The first person will win the game.";
     }
 }
